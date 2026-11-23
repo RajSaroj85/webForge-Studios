@@ -8,7 +8,7 @@ export const initialProfile: Profile = {
   profileImage: 'https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=800&q=80',
   resumeUrl: '#resume',
   email: 'rajsaroj7991@gmail.com',
-  phone: '+91 98765 43210',import { ContactMessage, Experience, Profile, Project, Service, Skill, Testimonial } from '../types';
+  phone: '+91 98765 43210',
 
 export const initialProfile: Profile = {
   id: 1,
