@@ -171,7 +171,7 @@ export const Footer: React.FC<FooterProps> = ({ profile, onNavigateAdmin }) => {
         {/* Bottom copyright */}
         <div className="pt-8 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-zinc-400">
           <div>
-            © {2026} WebForge Studio. All rights reserved. Built with 💻 & ☕ by  <strong className="text-zinc-400"><style color="red"> </style>Raj Saroj</strong>.
+            © {2026} WebForge Studio. All rights reserved. Built with 💻 & ☕ by  <strong className="text-zinc-400"> Raj Saroj</strong>.
           </div>
           <div className="flex items-center gap-4 font-mono text-[11px]">
             <span>REST API + Layered Architecture</span>
