@@ -135,7 +135,7 @@ export const Footer: React.FC<FooterProps> = ({ profile, onNavigateAdmin }) => {
           {/* Tech Architecture & Admin Access (4 cols) */}
           <div className="md:col-span-4 space-y-4">
             <h4 className="text-xs font-mono uppercase tracking-wider text-zinc-300">
-              Admin By(Raj)
+              Admin For(Raj)
             </h4>
             <div className="p-4 rounded-xl bg-zinc-900/50 border border-zinc-800/80 space-y-2 text-xs">
               <div className="text-zinc-300 font-semibold">Production Tech Stack</div>
