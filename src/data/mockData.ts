@@ -1,5 +1,4 @@
 import { ContactMessage, Experience, Profile, Project, Service, Skill, Testimonial } from '../types';
-import { Images } from '../asset/images';
 
 export const initialProfile: Profile = {
   id: 1,
@@ -23,9 +22,9 @@ export const initialProjects: Project[] = [
   {
     id: 1,
     title: 'Portfolio Website',
-    description: 'Hyper-local home service provider platform connecting certified service technicians with homeowners, featuring automated booking dispatch and real-time scheduling.',
-    imageUrl: 'https://images.unsplash.com/photo-1581578731548-c64695cc6952?auto=format&fit=crop&w=1200&q=80',
-    githubUrl: 'https://github.com/raj/locallink-platform',
+    description: 'Personal portfolio website showcasing developer profile, creative digital projects, core technical skills, and full-stack engineering work.',
+    imageUrl: '/WhatsApp Image 2026-11-23 at 9.38.40 PM.jpeg',
+    githubUrl: 'https://github.com/RajSaroj85',
     liveUrl: 'https://raj-portfolio-nu.vercel.app/',
     technologies: ['React', 'Java', 'Spring Boot', 'MySQL', 'REST API', 'Tailwind CSS'],
     featured: true,
@@ -41,7 +40,7 @@ export const initialProjects: Project[] = [
     id: 2,
     title: 'WebForge Studio',
     description: 'WebForge Studio – A modern web development platform showcasing creative digital solutions, professional services, and innovative projects. It features a responsive portfolio, dynamic project management, and a secure admin dashboard to manage content efficiently',
-    imageUrl: 'https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=1200&q=80',
+    imageUrl: '/web forge app.jpeg',
     githubUrl: 'https://github.com/RajSaroj85',
     liveUrl: 'https://web-forge-studios.vercel.app/',
     technologies: ['React', 'Java', 'Spring Boot', 'MySQL', 'Hibernate', 'JWT'],
@@ -59,10 +58,10 @@ export const initialProjects: Project[] = [
     id: 3,
     title: 'Real-Time-Chat Application',
     description: 'Real-Time Chat Application – A modern messaging platform that enables users to communicate instantly through real-time messaging, secure conversations, and a seamless chat experience.',
-    imageUrl: 'https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=1200&q=80',
+    imageUrl: '/real time chat app.jpeg',
     githubUrl: 'https://github.com/RajSaroj85',
     liveUrl: 'https://chat-flow-real-time-chat-applicatio-nine.vercel.app/',
-    technologies: ['Typscript', 'React', 'Tailwind css', 'MySQL',],
+    technologies: ['TypeScript', 'React', 'Tailwind CSS', 'MySQL'],
     featured: true,
     category: 'Full Stack',
     highlights: [
@@ -71,17 +70,17 @@ export const initialProjects: Project[] = [
       'Real-time message updates for instant communication',
       'Online and offline user status with chat history support',
       'Responsive interface for a smooth messaging experience',
- ],
+    ],
     createdAt: '2026-08-10',
   },
   {
     id: 4,
     title: 'Food Delivery PLatform',
     description: 'Food Delivery Platform – A user-friendly online food ordering platform that allows customers to explore restaurants, browse menus, place orders, and enjoy fast and convenient food delivery with a seamless experience.',
-    imageUrl: 'https://images.unsplash.com/photo-1507238691740-187a5b1d37b8?auto=format&fit=crop&w=1200&q=80',
+    imageUrl: '/food delivery app.jpeg',
     githubUrl: 'https://github.com/RajSaroj85',
     liveUrl: 'https://food-delivery-platform-azure.vercel.app/',
-    technologies: ['React', 'Tailwind CSS', 'Tyscript', 'MySQL'],
+    technologies: ['React', 'Tailwind CSS', 'TypeScript', 'MySQL'],
     featured: true,
     category: 'Full Stack',
     highlights: [
@@ -89,26 +88,8 @@ export const initialProjects: Project[] = [
      'User-friendly food selection and online ordering experience',
      'Responsive design for convenient access across different devices',
      'Modern UI focused on simplifying the food discovery and ordering process',
-],
+    ],
     createdAt: '2025-02-01',
-  },
-  {
-    id: 5,
-    title: 'Locallink Marcketplaces',
-    description: 'LocalLink – A smart platform that connects local businesses with customers, making it easy to discover nearby services, explore businesses, and connect instantly.',
-    imageUrl: 'https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?auto=format&fit=crop&w=1200&q=80',
-    githubUrl: 'https://github.com/RajSaroj85',
-    liveUrl: 'https://home-service-provider-nu.vercel.app/',
-    technologies: ['React', 'Java', 'Spring Boot', 'MySQL', 'Hibernate', 'JWT'],
-    featured: false,
-    category: 'Full Stack',
-    highlights: [
-     'Connects local businesses and service providers with nearby customers',
-     'Discover local businesses and explore available services',
-     'Helps customers find relevant service providers in their area',
-     'Simplifies connections between customers and local service providers',
- ],
-    createdAt: '2025-05-18',
   },
 ];
 
@@ -269,7 +250,7 @@ export const initialTestimonials: Testimonial[] = [
     clientRole: 'Founder & CEO',
     company: 'WebForge Studio',
     message: 'Raj developed our WebForge platform from scratch. He understood our domain requirements immediately and built an intuitive platform that our users love.',
-    imageUrl: 'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=200&q=80',
+    imageUrl: '/Raj Saroj.jpeg',
     rating: 5,
     createdAt: '2026-01-05',
   },

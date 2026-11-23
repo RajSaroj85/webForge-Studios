@@ -49,7 +49,32 @@ export const storageService = {
   },
 
   // Projects
-  getProjects: (): Project[] => getStored<Project[]>(STORAGE_KEYS.PROJECTS, initialProjects),
+  getProjects: (): Project[] => {
+    const projects = getStored<Project[]>(STORAGE_KEYS.PROJECTS, initialProjects);
+    // Remove locallink if it was saved in localStorage previously
+    const filtered = projects.filter(
+      (p) =>
+        !p.title.toLowerCase().includes('locallink') &&
+        !p.title.toLowerCase().includes('localling')
+    );
+    // Update any projects whose images are still using old unsplash URLs
+    const updated = filtered.map((p) => {
+      const initialMatch = initialProjects.find(
+        (ip) => ip.id === p.id || ip.title.toLowerCase() === p.title.toLowerCase()
+      );
+      if (initialMatch && p.imageUrl.includes('images.unsplash.com')) {
+        return { ...p, imageUrl: initialMatch.imageUrl };
+      }
+      return p;
+    });
+    if (
+      filtered.length !== projects.length ||
+      JSON.stringify(updated) !== JSON.stringify(projects)
+    ) {
+      setStored(STORAGE_KEYS.PROJECTS, updated);
+    }
+    return updated;
+  },
   getProjectById: (id: number): Project | undefined => {
     const projects = storageService.getProjects();
     return projects.find((p) => p.id === id);
@@ -155,7 +180,22 @@ export const storageService = {
   },
 
   // Testimonials
-  getTestimonials: (): Testimonial[] => getStored<Testimonial[]>(STORAGE_KEYS.TESTIMONIALS, initialTestimonials),
+  getTestimonials: (): Testimonial[] => {
+    const list = getStored<Testimonial[]>(STORAGE_KEYS.TESTIMONIALS, initialTestimonials);
+    const updated = list.map((t) => {
+      if (
+        t.clientName.toLowerCase().includes('raj saroj') &&
+        t.imageUrl.includes('images.unsplash.com')
+      ) {
+        return { ...t, imageUrl: '/Raj Saroj.jpeg' };
+      }
+      return t;
+    });
+    if (JSON.stringify(updated) !== JSON.stringify(list)) {
+      setStored(STORAGE_KEYS.TESTIMONIALS, updated);
+    }
+    return updated;
+  },
   saveTestimonial: (t: Omit<Testimonial, 'id'> & { id?: number }): Testimonial => {
     const list = storageService.getTestimonials();
     let saved: Testimonial;

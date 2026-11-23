@@ -1,5 +1,5 @@
 import React from 'react';
-import { Hammer, Github, Linkedin, Instagram, Twitter, Mail, ArrowUp, ShieldCheck } from 'lucide-react';
+import { Github, Linkedin, Instagram, Twitter, Mail, ArrowUp, ShieldCheck } from 'lucide-react';
 import { Profile } from '../types';
 
 interface FooterProps {
@@ -15,15 +15,17 @@ export const Footer: React.FC<FooterProps> = ({ profile, onNavigateAdmin }) => {
   const currentYear = new Date().getFullYear();
 
   return (
-    <footer className="border-t border-zinc-900 bg-[#060608] pt-16 pb-12 text-zinc-400">
+    <footer className="border-t border-zinc-900 bg-[#060608] pt-16 pb-24 md:pb-12 text-zinc-400">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 md:grid-cols-12 gap-10 pb-12 border-b border-zinc-800/80">
           {/* Brand Info (5 cols) */}
           <div className="md:col-span-5 space-y-4">
             <div className="flex items-center gap-3">
-              <div className="w-9 h-9 rounded-xl bg-blue-600 flex items-center justify-center text-white shadow-md shadow-blue-600/30">
-                <Hammer className="w-4 h-4 text-white" />
-              </div>
+              <img
+                src="/webforge logo.jpeg"
+                alt="WebForge Studio Logo"
+                className="w-9 h-9 rounded-full object-cover shadow-md shadow-blue-600/30 border border-zinc-800"
+              />
               <span className="font-heading font-bold text-lg text-white">
                 WebForge <span className="text-blue-400">Studio</span>
               </span>

@@ -42,10 +42,10 @@ FEATURED EXPERIENCE
    - Built full-stack capstone projects using Spring Boot, Hibernate, MySQL, and React
 
 KEY PROJECTS
-- LocalLink: Hyper-local home service provider platform (React, Java, Spring Boot, MySQL, REST API)
-- Service Provider Marketplace: Multi-vendor on-demand service platform
-- Insurance Policy Management: Enterprise policy lifecycle REST API with Spring Security
-- RajPortfolio: Portfolio and freelance studio platform
+- WebForge Studio: Modern web development platform showcasing services and projects (React, Java, Spring Boot, MySQL, REST API)
+- Real-Time Chat Application: Instant messaging platform with group & private chat (React, TypeScript, MySQL)
+- Food Delivery Platform: Online restaurant browsing and ordering system (React, Tailwind CSS, TypeScript, MySQL)
+- Portfolio Website: Personal developer portfolio and showcase (React, Tailwind CSS, REST API)
 
 EDUCATION
 ${profile.education || 'Bachelor of Technology in Computer Science & Engineering'}
