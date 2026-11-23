@@ -42,7 +42,7 @@ export const initialProjects: Project[] = [
     description: 'WebForge Studio – A modern web development platform showcasing creative digital solutions, professional services, and innovative projects. It features a responsive portfolio, dynamic project management, and a secure admin dashboard to manage content efficiently',
     imageUrl: 'https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=1200&q=80',
     githubUrl: 'https://github.com/RajSaroj85',
-    liveUrl: 'https://github.com/RajSaroj85/webForge-Studios',
+    liveUrl: 'https://web-forge-studios.vercel.app/',
     technologies: ['React', 'Java', 'Spring Boot', 'MySQL', 'Hibernate', 'JWT'],
     featured: true,
     category: 'Full Stack',
