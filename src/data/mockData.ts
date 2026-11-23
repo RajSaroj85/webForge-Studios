@@ -1,5 +1,5 @@
 import { ContactMessage, Experience, Profile, Project, Service, Skill, Testimonial } from '../types';
-import { Images } from '../asset/images';
+import { Images } from '../assest/images';
 
 export const initialProfile: Profile = {
   id: 1,
