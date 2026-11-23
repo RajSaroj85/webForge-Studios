@@ -25,7 +25,7 @@ export const Footer: React.FC<FooterProps> = ({ profile, onNavigateAdmin }) => {
                 <Hammer className="w-4 h-4 text-white" />
               </div>
               <span className="font-heading font-bold text-lg text-white">
-                RajForge <span className="text-blue-400">Studio</span>
+                WebForge <span className="text-blue-400">Studio</span>
               </span>
             </div>
 
@@ -135,7 +135,7 @@ export const Footer: React.FC<FooterProps> = ({ profile, onNavigateAdmin }) => {
           {/* Tech Architecture & Admin Access (4 cols) */}
           <div className="md:col-span-4 space-y-4">
             <h4 className="text-xs font-mono uppercase tracking-wider text-zinc-300">
-              Architecture & Admin
+              Admin By(Raj)
             </h4>
             <div className="p-4 rounded-xl bg-zinc-900/50 border border-zinc-800/80 space-y-2 text-xs">
               <div className="text-zinc-300 font-semibold">Production Tech Stack</div>
@@ -169,7 +169,7 @@ export const Footer: React.FC<FooterProps> = ({ profile, onNavigateAdmin }) => {
         {/* Bottom copyright */}
         <div className="pt-8 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-zinc-400">
           <div>
-            © {currentYear} RajForge Studio. All rights reserved. Built with pride by <strong className="text-zinc-400">Raj</strong>.
+            © {2024} RajForge Studio. All rights reserved. Built with ☕ & code pride by<strong className="text-zinc-400">Raj</strong>.
           </div>
           <div className="flex items-center gap-4 font-mono text-[11px]">
             <span>REST API + Layered Architecture</span>
