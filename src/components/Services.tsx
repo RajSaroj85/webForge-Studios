@@ -57,7 +57,7 @@ export const Services: React.FC<ServicesProps> = ({ services, onSelectService })
             Freelance & Engineering Services
           </h2>
           <p className="mt-3 text-zinc-400 text-base max-w-2xl">
-            From single-page web experiences to full-scale enterprise Java microservices, RajForge Studio provides end-to-end digital craft tailored to your business needs.
+            From single-page web experiences to full-scale enterprise Java microservices, WebForge Studio provides end-to-end digital craft tailored to your business needs.
           </p>
         </div>
 
