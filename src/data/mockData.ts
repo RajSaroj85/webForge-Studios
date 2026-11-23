@@ -244,7 +244,7 @@ export const initialExperience: Experience[] = [
 export const initialTestimonials: Testimonial[] = [
   {
     id: 1,
-    clientName: 'Vikram Mehta',
+    clientName: 'Arjun RAo',
     clientRole: 'Product Director',
     company: 'Nexus Digital Labs',
     message: 'Raj delivered an impressive full-stack application with a clean, high-performance architecture and a stunning modern UI. His expertise in Spring Boot and React is top notch.',
@@ -254,7 +254,7 @@ export const initialTestimonials: Testimonial[] = [
   },
   {
     id: 2,
-    clientName: 'Sarah Jenkins',
+    clientName: 'Priyanka Malhotra',
     clientRole: 'Technical Lead & Hiring Manager',
     company: 'Apex Cloud Solutions',
     message: 'Working with Raj on our REST API integration was a breeze. The codebase was cleanly structured with DTO validation, proper error handling, and prompt delivery ahead of schedule.',
@@ -264,9 +264,9 @@ export const initialTestimonials: Testimonial[] = [
   },
   {
     id: 3,
-    clientName: 'Arjun Rao',
+    clientName: 'Raj Saroj',
     clientRole: 'Founder & CEO',
-    company: 'LocalService Hub',
+    company: 'WebForge Studio',
     message: 'Raj developed our LocalLink platform from scratch. He understood our domain requirements immediately and built an intuitive platform that our users love.',
     imageUrl: 'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=200&q=80',
     rating: 5,
