@@ -8,7 +8,7 @@ The project uses React and TypeScript for the frontend, Supabase for backend ser
 
 ## 🚀 Live Website
 
-**Website:** https://code-forge-studios.vercel.app/
+**Website:** https://web-forge-studios.vercel.app/
 
 ## ✨ Features
 
@@ -66,7 +66,7 @@ WebForge-Studio/
 ### 1. Clone the repository
 
 ```bash
-git clone YOUR_GITHUB_REPOSITORY_URL
+git clone YOUR_GITHUB_REPOSITORY_UR
 ```
 
 ### 2. Open the project folder
