@@ -1,4 +1,5 @@
 import { ContactMessage, Experience, Profile, Project, Service, Skill, Testimonial } from '../types';
+import { Images } from '../asset/images';
 
 export const initialProfile: Profile = {
   id: 1,
@@ -58,7 +59,7 @@ export const initialProjects: Project[] = [
     id: 3,
     title: 'Real-Time-Chat Application',
     description: 'Real-Time Chat Application – A modern messaging platform that enables users to communicate instantly through real-time messaging, secure conversations, and a seamless chat experience.',
-    imageUrl: 'https://images.unsplash.com/photo-1450133064473-71024230f91b?auto=format&fit=crop&w=1200&q=80',
+    imageUrl: 'Images.chat',
     githubUrl: 'https://github.com/RajSaroj85',
     liveUrl: 'https://chat-flow-real-time-chat-applicatio-nine.vercel.app/',
     technologies: ['Typscript', 'React', 'Tailwind css', 'MySQL',],
