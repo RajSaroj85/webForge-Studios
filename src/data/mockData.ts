@@ -230,7 +230,7 @@ export const initialTestimonials: Testimonial[] = [
     clientRole: 'Product Director',
     company: 'Nexus Digital Labs',
     message: 'Raj delivered an impressive full-stack application with a clean, high-performance architecture and a stunning modern UI. His expertise in Spring Boot and React is top notch.',
-    imageUrl: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=200&q=80',
+    imageUrl: '/raj.png',
     rating: 5,
     createdAt: '2026-02-10',
   },
