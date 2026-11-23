@@ -240,7 +240,7 @@ export const initialTestimonials: Testimonial[] = [
     clientRole: 'Technical Lead & Hiring Manager',
     company: 'Apex Cloud Solutions',
     message: 'Working with Raj on our REST API integration was a breeze. The codebase was cleanly structured with DTO validation, proper error handling, and prompt delivery ahead of schedule.',
-    imageUrl: 'https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=200&q=80',
+    imageUrl: 'pri.png',
     rating: 5,
     createdAt: '2026-01-28',
   },
