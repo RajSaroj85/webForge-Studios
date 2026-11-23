@@ -3,16 +3,6 @@ import { ContactMessage, Experience, Profile, Project, Service, Skill, Testimoni
 export const initialProfile: Profile = {
   id: 1,
   name: 'Raj',
-  headline: 'Java Full Stack Developer & Founder of RajForge Studio',
-  bio: "I'm Raj, a Java Full Stack Developer passionate about building modern web applications and digital experiences. I work with Java, Spring Boot, React, MySQL and REST APIs to build complete full-stack applications.",
-  profileImage: 'https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=800&q=80',
-  resumeUrl: '#resume',
-  email: 'rajsaroj7991@gmail.com',
-  phone: '+91 98765 43210',
-
-export const initialProfile: Profile = {
-  id: 1,
-  name: 'Raj',
   headline: 'Java Full Stack Developer & Founder of WebForge Studio',
   bio: "I'm Raj, a Java Full Stack Developer passionate about building modern web applications and digital experiences. I work with Java, Spring Boot, React, MySQL and REST APIs to build complete full-stack applications.",
   profileImage: 'https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=800&q=80',
