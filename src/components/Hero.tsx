@@ -66,7 +66,7 @@ export const Hero: React.FC<HeroProps> = ({ profile, onOpenResume }) => {
               <h2 className="text-2xl sm:text-3xl font-bold text-zinc-200 font-heading">
                 Java Full Stack Developer
                 <span className="block text-xl sm:text-2xl font-normal text-blue-400/90 mt-1">
-                  & Founder of <span className="font-semibold text-white">RajForge Studio</span>
+                  & Founder of <span className="font-semibold text-white">WebForge Studio</span>
                 </span>
               </h2>
             </div>
@@ -77,7 +77,7 @@ export const Hero: React.FC<HeroProps> = ({ profile, onOpenResume }) => {
                 "Forge Ideas. Build Digital Experiences."
               </p>
               <p className="text-base sm:text-lg text-zinc-400 leading-relaxed">
-                I build modern, scalable and user-focused web applications with
+                I build modern, scalable and user-focused web & applications with
                 enterprise Java backends, high-performance Spring Boot REST APIs, and reactive frontend experiences.
               </p>
             </div>
@@ -207,7 +207,7 @@ export const Hero: React.FC<HeroProps> = ({ profile, onOpenResume }) => {
                   </div>
                   <div className="text-[11px] font-mono text-zinc-400 flex items-center gap-1.5">
                     <Terminal className="w-3.5 h-3.5 text-blue-400" />
-                    <span>RajForgeApplication.java</span>
+                    <span>WebForgeApplication.java</span>
                   </div>
                   <span className="text-[10px] font-mono px-2 py-0.5 rounded bg-emerald-500/10 text-emerald-400 border border-emerald-500/20">
                     200 OK
@@ -226,7 +226,7 @@ export const Hero: React.FC<HeroProps> = ({ profile, onOpenResume }) => {
                   </div>
                   <div>
                     <span className="text-blue-400">public class</span>{' '}
-                    <span className="text-yellow-300">RajStudioController</span> {'{'}
+                    <span className="text-yellow-300">WebStudioController</span> {'{'}
                   </div>
                   <div className="pl-4">
                     <span className="text-purple-400">@GetMapping</span>(
@@ -244,7 +244,7 @@ export const Hero: React.FC<HeroProps> = ({ profile, onOpenResume }) => {
                     <span className="text-yellow-300">StudioProfile</span>.builder()
                   </div>
                   <div className="pl-16 text-zinc-400">
-                    .developer(<span className="text-emerald-400">"Raj"</span>)
+                    .developer(<span className="text-emerald-400">"Web"</span>)
                   </div>
                   <div className="pl-16 text-zinc-400">
                     .stack(<span className="text-emerald-400">"Java + Spring Boot + React"</span>)
