@@ -1,0 +1,6 @@
+{
+  "name": "WebForge Studio",
+  "description": "WebForge Studio is the personal portfolio and development studio of Raj, a Java Full Stack Developer specializing in Java, Spring Boot, React and MySQL.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
