@@ -132,7 +132,7 @@ export const AdminDashboard: React.FC<AdminDashboardProps> = ({
           <div>
             <div className="flex items-center gap-2">
               <span className="font-heading font-bold text-white tracking-tight">
-                RajForge Studio
+                WebForge Studio
               </span>
               <span className="text-[10px] font-mono px-2 py-0.5 rounded bg-emerald-500/10 text-emerald-400 border border-emerald-500/20">
                 Admin Portal
