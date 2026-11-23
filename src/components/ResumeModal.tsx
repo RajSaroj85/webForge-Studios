@@ -32,7 +32,7 @@ CORE TECHNICAL SKILLS
 - Tools & DevOps: Git, GitHub, IntelliJ IDEA, VS Code, Postman, Docker, Linux
 
 FEATURED EXPERIENCE
-1. Java Full Stack Developer & Founder | RajForge Studio (2026 - Present)
+1. Java Full Stack Developer & Founder | WebForge Studio (2026 - Present)
    - Architecting scalable web applications and Spring Boot microservices
    - Implementing role-based JWT authentication and JPA entity mappings
    - Delivering full-stack client solutions with modern React frontends
@@ -111,7 +111,7 @@ ${profile.education || 'Bachelor of Technology in Computer Science & Engineering
                   RAJ
                 </h1>
                 <h2 className="text-base font-semibold text-blue-400 mt-0.5">
-                  Java Full Stack Developer & Founder of RajForge Studio
+                  Java Full Stack Developer & Founder of WebForge Studio
                 </h2>
               </div>
               <div className="space-y-1 text-xs text-zinc-400 font-mono sm:text-right">
@@ -188,7 +188,7 @@ ${profile.education || 'Bachelor of Technology in Computer Science & Engineering
                   </h4>
                   <span className="text-xs font-mono text-zinc-400">2026 – Present</span>
                 </div>
-                <div className="text-xs font-semibold text-blue-400">RajForge Studio</div>
+                <div className="text-xs font-semibold text-blue-400">WebForge Studio</div>
                 <p className="text-xs text-zinc-300 leading-relaxed mt-1">
                   Leading full-stack freelance development and client projects. Engineering enterprise Spring Boot microservices, designing relational schemas in MySQL, and building user-centric React frontends.
                 </p>
