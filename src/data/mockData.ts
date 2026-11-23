@@ -226,7 +226,7 @@ export const initialExperience: Experience[] = [
 export const initialTestimonials: Testimonial[] = [
   {
     id: 1,
-    clientName: 'Arjun RAo',
+    clientName: 'Arjun Rao',
     clientRole: 'Product Director',
     company: 'Nexus Digital Labs',
     message: 'Raj delivered an impressive full-stack application with a clean, high-performance architecture and a stunning modern UI. His expertise in Spring Boot and React is top notch.',
