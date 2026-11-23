@@ -78,7 +78,7 @@ export const About: React.FC<AboutProps> = ({ profile }) => {
                 I'm <strong className="text-white font-semibold">Raj</strong>, a Java Full Stack Developer passionate about building modern web applications and digital experiences.
               </p>
               <p className="text-zinc-400 text-sm leading-relaxed">
-                I work with <strong className="text-zinc-200">Java, Spring Boot, React, MySQL, and REST APIs</strong> to build complete full-stack applications. Through <span className="text-blue-400 font-semibold">RajForge Studio</span>, I collaborate with founders, businesses, and development teams to turn complex ideas into robust, production-ready digital solutions.
+                I work with <strong className="text-zinc-200">Java, Spring Boot, React, MySQL, and REST APIs</strong> to build complete full-stack applications. Through <span className="text-blue-400 font-semibold">WebForge Studio</span>, I collaborate with founders, businesses, and development teams to turn complex ideas into robust, production-ready digital solutions.
               </p>
               <p className="text-zinc-400 text-sm leading-relaxed">
                 My approach bridges the rigor of enterprise backend architecture—such as Spring Security JWT authentication, JPA transactional cascades, and normalized relational databases—with fluid, design-forward React interfaces that delight users.
