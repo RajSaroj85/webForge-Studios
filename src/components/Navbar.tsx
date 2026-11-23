@@ -63,7 +63,7 @@ export const Navbar: React.FC<NavbarProps> = ({ onOpenResume, onNavigateAdmin, a
           <div className="flex flex-col">
             <div className="flex items-center gap-1.5">
               <span className="font-heading font-bold text-lg tracking-tight text-white group-hover:text-blue-400 transition-colors">
-                RajForge
+                WebForge
               </span>
               <span className="text-xs font-semibold uppercase tracking-wider px-1.5 py-0.5 rounded bg-blue-500/10 text-blue-400 border border-blue-500/20">
                 Studio
