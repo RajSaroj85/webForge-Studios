@@ -267,7 +267,7 @@ export const initialTestimonials: Testimonial[] = [
     clientName: 'Raj Saroj',
     clientRole: 'Founder & CEO',
     company: 'WebForge Studio',
-    message: 'Raj developed our LocalLink platform from scratch. He understood our domain requirements immediately and built an intuitive platform that our users love.',
+    message: 'Raj developed our WebForge platform from scratch. He understood our domain requirements immediately and built an intuitive platform that our users love.',
     imageUrl: 'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=200&q=80',
     rating: 5,
     createdAt: '2026-01-05',
